@@ -19,12 +19,12 @@
 
 window._workshopConfig = {
   cognito: {
-    userPoolId: 'us-east-1_Z2MpSWblk', // e.g. us-west-2_uXboG5pAb
-    userPoolClientId: '7nn43bpbln6kpt5fjsrlsfdaqb', // e.g. 25ddkmj4v6hfsfvruhpfi7n4hv
-    region: 'us-east-1' // e.g. us-west-2
+    userPoolId: 'REPLACE_WITH_YOUR_USER_POOL_ID', // e.g. us-west-2_uXboG5pAb
+    userPoolClientId: 'REPLACE_WITH_YOUR_CLIENT_ID', // e.g. 25ddkmj4v6hfsfvruhpfi7n4hv
+    region: 'REPLACE_WITH_YOUR_REGION' // e.g. us-west-2
   },
   api: {
-    invokeUrl: 'https://rpij9ni9c5.execute-api.us-east-1.amazonaws.com/dev' // e.g. https://abc123def.execute-api.us-west-2.amazonaws.com/prod
+    invokeUrl: 'REPLACE_WITH_YOUR_API_URL' // e.g. https://abc123def.execute-api.us-west-2.amazonaws.com/prod
   }
 };
 
